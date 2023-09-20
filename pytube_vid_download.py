@@ -25,5 +25,5 @@ with open("/home/ba-ajeetkumary/SYMON_New/SYMON/url2.txt") as f:
             downloaded_ids.append(vid_id)
         except:
             NameError
-# Store the IDs of all downloaded video.
+# Store the IDs of all downloaded videos.
 np.savez_compressed("/home/ba-ajeetkumary/SYMON_New/Dummy2.npz", downloaded_ids)
